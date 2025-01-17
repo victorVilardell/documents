@@ -3,15 +3,21 @@
 ## To start
 
 npm install
+
 npm run start
+
 npm run test
 
 ## Folder structure
 
-components: components and styles with web components
+omponents: components and styles with web components
+
 services: connections to the getDocuments and webSockets servers
+
 styles: generics styles
-utilities: different files with possibly reusable or configurable code snippets.
+
+utilities: different files with possibly reusable or
+configurable code snippets.
 in the root index html and ts
 
 ## Comments
