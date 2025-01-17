@@ -2,10 +2,10 @@ import {
   fetchDocuments,
   renderDocuments,
 } from "./services/getDocuments/fetch-documents";
-import connect from "./webSocket";
+import connect from "./services/getDocuments/webSocket";
 import DocumentList from "./components/document-list/document-list";
 import ToastAlert from "./components/toast/toast-alert";
-import DocumentForm from "./components/document-form";
+import DocumentForm from "./components/document-form/document-form";
 import { getItem, setItem } from "./utilities/localStorageUtil";
 import sortDocuments from "./utilities/sortDocumentsUtil";
 
