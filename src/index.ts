@@ -2,7 +2,7 @@ import {
   fetchDocuments,
   renderDocuments,
 } from "./services/getDocuments/fetch-documents";
-import connect from "./services/getDocuments/webSocket";
+import connect from "./services/webSocket/webSocket";
 import DocumentList from "./components/document-list/document-list";
 import ToastAlert from "./components/toast/toast-alert";
 import DocumentForm from "./components/document-form/document-form";
