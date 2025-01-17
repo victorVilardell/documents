@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victor Vilardell - test</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Documents</h1>
+
+    <div id="app">
+      <header>
+        <label for="filterBy"
+          >Sort by:
+          <select id="filterBy">
+            <option value="title" selected="selected">Title</option>
+            <option value="version">Version</option>
+            <option value="date">Date</option>
+          </select>
+        </label>
+
+        <ul id="gridFormat" class="icontList">
+          <li class="selected">list</li>
+          <li>table</li>
+        </ul>
+      </header>
+      <main id="documentContainer">
+        <document-list id="documentList"></document-list>
+        <button id="addDocument">+ Add document</button>
+      </main>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
